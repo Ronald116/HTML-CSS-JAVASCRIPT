@@ -95,9 +95,9 @@ Integration with backend services
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ronald116)
-- Twitter - [@yourusername](https://www.twitter.com/misfit_ronald)
-- Github - (https://github.com/Ronald116)
+- Frontend Mentor - [@Ronald116](https://www.frontendmentor.io/profile/Ronald116)
+- Twitter - [@misfit_ronald](https://www.twitter.com/misfit_ronald)
+- Github - [@Ronald116](https://github.com/Ronald116)
 
 
 
