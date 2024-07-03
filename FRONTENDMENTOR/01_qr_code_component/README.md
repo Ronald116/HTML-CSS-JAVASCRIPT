@@ -11,7 +11,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -21,13 +20,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./Screenshot (34).png)
+![Screenshot of the project](./Screenshot%20(34).png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Ronald116/HTML-CSS-JAVASCRIPT/tree/main/FRONTENDMENTOR/01_qr_code_component)
 
 ## My process
 
@@ -36,56 +34,79 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Mobile-first workflow
 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+1. Flexbox for Centering Elements
+Using Flexbox to center elements both horizontally and vertically was crucial in creating a responsive design. Flexbox simplifies alignment tasks that were traditionally challenging with older CSS techniques.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Code snippets:
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    height: 550px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 350px;
+    padding: 0px;
+
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+1. Advanced CSS Grid Layouts
+While Flexbox is great for one-dimensional layouts, CSS Grid excels at creating complex two-dimensional layouts. I want to deepen my understanding of CSS Grid to create more intricate and responsive designs.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Focus Areas:
 
-### Useful resources
+Grid template areas
+Auto-placement algorithm
+Creating nested grids
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+Areas for Future Focus
+While working through this project, I identified several areas that I want to continue focusing on and refining in future projects. These include both concepts I'm still mastering and techniques that I found particularly useful and aim to perfect.
+
+1. Advanced CSS Grid Layouts
+While Flexbox is great for one-dimensional layouts, CSS Grid excels at creating complex two-dimensional layouts. I want to deepen my understanding of CSS Grid to create more intricate and responsive designs.
+
+Focus Areas:
+
+Grid template areas
+Auto-placement algorithm
+Creating nested grids
+Example: Basic Grid Layout
+
+2. JavaScript Frameworks and Libraries
+Leveraging JavaScript frameworks like React, Vue, or Angular can significantly enhance front-end development efficiency and scalability. I plan to deepen my understanding and proficiency with these tools.
+
+Focus Areas:
+
+Component-based architecture
+State management
+Integration with backend services
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Ronald116)
+- Twitter - [@yourusername](https://www.twitter.com/misfit_ronald)
+- Github - (https://github.com/Ronald116)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Chatgpt
+- FreeCodeCamp
+-Codecademy
+-Javascript.info
+- Mozilla Developer Network(MDN)
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+
