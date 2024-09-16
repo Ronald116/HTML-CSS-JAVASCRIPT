@@ -12,16 +12,23 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    /*padding: 50px;*/
+    height: 600px;
 }
 
 .logo-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    /*border: solid 1px red;*/
+    margin: 0 200px;
+    margin-left: 260px;
+    height: 100px;
 }
 
 .logo-image {
-    width: 10rem;
-    height: 10rem;
+    width: 5rem;
+    height: 5rem;
     border-radius: 50%;
 }
 
@@ -46,6 +53,10 @@ body {
 .intro {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+    margin-left: 260px;
+    /*border: solid 1px red;*/
 }
 
 .short-intro {
@@ -53,9 +64,10 @@ body {
 }
 
 .intro-image {
-    width: 600px;
-    height: 250px;
+    width: 420px;
+    height: 290px;
     object-fit:cover;
+    margin-top: 40px;
 }
 
 .short-intro h2 {
@@ -63,12 +75,16 @@ body {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .short-intro p {
     width: 410px;
     color:  #E5E7EB;
     font-size: 18px;
+    margin-top: 2px;
+    margin-bottom: 0px;
 }
 
 .signup-btn {
@@ -81,8 +97,12 @@ body {
     font-size: 16px;
     font-weight: bold;
     padding: 5px;
+    margin-top: 10px;
 }
 
+.signup-btn:hover {
+    cursor: pointer;
+}
 
 /*info section*/
 /*customer-review-section*/
