@@ -143,5 +143,35 @@ body {
 
 
 /*customer-review-section*/
+.customer-review-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.review-quote {
+    width: 880px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+.reviewer {
+    width: 820px;
+    text-align: end;
+    font-weight: 900;
+    font-size: 25px;
+    margin-top: -60px;
+    color: #1F2937;
+}
+
+
+
+
+
 /*signup section*/
 /*footer*/
