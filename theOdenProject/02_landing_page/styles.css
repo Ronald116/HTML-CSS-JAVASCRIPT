@@ -6,3 +6,85 @@ body {
     box-sizing: border-box;
     font-family: "roboto", sans-serif;
 }
+
+/*header section*/
+.header-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.logo-header nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.nav-btn li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.nav-btn li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+}
+
+.short-intro {
+
+}
+
+.intro-image {
+    width: 600px;
+    height: 250px;
+    object-fit:cover;
+}
+
+.short-intro h2 {
+    width: 350px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.short-intro p {
+    width: 410px;
+    color:  #E5E7EB;
+    font-size: 18px;
+}
+
+.signup-btn {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+/*info section*/
+/*customer-review-section*/
+/*signup section*/
+/*footer*/
