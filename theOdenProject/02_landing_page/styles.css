@@ -171,7 +171,50 @@ body {
 
 
 
-
-
 /*signup section*/
+.signup-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882F6;
+    width: 70%;
+    height: 50%;
+    align-content: center;
+}
+
+.signup-msg h3 {
+    color: #F9FAF8;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+.signup-msg p {
+    margin-top: 0px;
+    color: #dadddf;
+}
+
+.signup {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    border: solid white 2px;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 10px;
+}
+
 /*footer*/
+
