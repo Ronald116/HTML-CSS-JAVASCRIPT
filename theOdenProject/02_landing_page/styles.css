@@ -209,7 +209,7 @@ body {
     border-radius: 8px;
     border: solid white 2px;
     height: 40px;
-    width: 120px;
+    width: 130px;
     font-size: 16px;
     font-weight: bold;
     padding: 5px;
@@ -218,3 +218,18 @@ body {
 
 /*footer*/
 
+footer {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    color: #E5E7EB;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    word-spacing: 3px;
+}
