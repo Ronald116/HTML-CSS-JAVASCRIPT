@@ -1,4 +1,7 @@
 @import url(https://db.onlinewebfonts.com/c/7d460b18433753a097e5bc2bad7c8dd9?family=Norse+Bold);
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +11,7 @@
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /*align-items: center;*/
     height: 100%;
     
@@ -16,7 +19,7 @@
 
 /* img-container */
 .img-container {
-    width: 40%;
+    width: 30%;
     height: 800px;
     margin: 0 0 0 -10px;
     position: relative;
@@ -37,12 +40,12 @@
     justify-content: center;
     align-items: center;
 
-    background-color: rgba(65, 68, 62, 0.4);
+    background-color: rgba(38, 41, 36, 0.4);
     padding: 5px 0;
 }
 
 .logo-container p {
-    font-family: "Norse Bold";
+    font-family: "Norse Bold", sans-serif;
     color: white;
     font-size: 80px;
 }
@@ -53,9 +56,54 @@
 }
 
 
-
-
-
-
 /* form-container */
+.form-container {
+    width: 72%;
+}
+
+.intro-section {
+    background-color: whitesmoke;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.intro-section p {
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+    font-family: "roboto";
+}
+
+.short-intro {
+    margin-bottom: 0;
+    margin-top: 50px;
+    height: 100px;
+    width: 520px;
+}
+
+.intro-know {
+    margin-top: -20px;
+}
+
+.form-field {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 30px;
+    font-family: "roboto", sans-serif;
+}
+
+legend {
+    width: 100%;
+}
+
+fieldset {
+    width: calc(50% - 20px);
+    border: none;
+}
+
 
