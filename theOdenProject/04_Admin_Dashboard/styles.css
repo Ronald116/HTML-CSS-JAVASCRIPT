@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+:root {
+    --border: red solid 1px;
+}
+
+/* img and svg sizing*/
+.svg {
+    width: 20px;
+    height: 20px;
+}
+
+.profile-img,
+.tren-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.body-container {
+
+
+}
+
+/*header*/
+header {
+ 
+}
+
+/*aside*/
+aside {
+    border: var(--border)
+}
+
+
+/*main*/
+main {
+    border: var(--border)
+}
