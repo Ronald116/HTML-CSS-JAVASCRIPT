@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* {
+body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,39 +8,38 @@
 }
 
 :root {
-    --border: red solid 1px;
-}
-
-/* img and svg sizing*/
-.svg {
-    width: 20px;
-    height: 20px;
-}
-
-.profile-img,
-.tren-pic {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    --border: solid 1px red;
 }
 
 .body-container {
-
-
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 3fr;
 }
+
+/*header, aside, main {
+    border: var(--border);
+}*/
 
 /*header*/
 header {
- 
+    border: solid black 1px;
+    grid-column: 2 / span 2;
+    grid-row: 1 / 1;
 }
 
 /*aside*/
 aside {
-    border: var(--border)
+    border: red solid 1px;
+    grid-column: 1 / 2;
+    grid-row: 1 / span 2;
 }
-
 
 /*main*/
 main {
-    border: var(--border)
+    border: solid blue 1px;
+    grid-column: 2 / span 2;
+    grid-row: 2 / 2;
 }
