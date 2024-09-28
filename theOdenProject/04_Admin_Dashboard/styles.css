@@ -16,7 +16,18 @@ body, html {
     width: 100%;
     height: 100vh;
     grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.svg {
+    width: 20px;
+    height: 20px;
+}
+
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
 
 /*header, aside, main {
@@ -28,6 +39,45 @@ header {
     border: solid black 1px;
     grid-column: 2 / span 2;
     grid-row: 1 / 1;
+}
+
+.search-area {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+.search-btn, .notification-area {
+    border: var(--border);
+}
+
+.search-btn {
+    width: 70%;
+    height: 51px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.search-input {
+    width: 80%;
+    margin-left: 10px;
+    height: 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #e5e8ec;
+}
+
+
+.notification-area {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*aside*/
