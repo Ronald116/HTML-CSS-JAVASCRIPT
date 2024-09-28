@@ -48,9 +48,9 @@ header {
     margin-top: 10px;
 }
 
-.search-btn, .notification-area {
-    border: var(--border);
-}
+/*.search-btn, .notification-area {
+
+}*/
 
 .search-btn {
     width: 70%;
@@ -80,6 +80,54 @@ header {
     align-items: center;
 }
 
+.profile {
+   padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.profile-name {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+
+.profile-name > .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.profile-name > p {
+    font-weight: 900;
+    font-size: small;
+}
+
+.profile-name > p > span {
+    font-size: large;
+}
+
+.profile-upload {
+    margin-right: 10px;
+}
+
+.profile-btn {
+    height: 30px;
+    width: 100px;
+    margin: 0 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #497ff3;
+    color: white;
+
+}
+
+
+/*************************************/
+
 /*aside*/
 aside {
     border: red solid 1px;
@@ -87,6 +135,10 @@ aside {
     grid-row: 1 / span 2;
 }
 
+
+
+
+/***************************************/
 /*main*/
 main {
     border: solid blue 1px;
