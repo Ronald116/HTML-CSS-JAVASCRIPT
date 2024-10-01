@@ -11,15 +11,7 @@ const myLibrary = []
 }
 
 function addBookToLibrary() {
-    const bookTitle = prompt("Enter the title of the book: ");
-    const bookAuthor = prompt("Enter the name of the author: ");
-    const bookPages = prompt("Enter number of pages: ");
-    const bookRead = prompt("Are you done reading? (yes/no): ");
-
-    const newBook = new Book(bookTitle, bookAuthor, bookPages, bookRead);
-    myLibrary.push(newBook);
-
-    displayBooks();
+    
 };
 
 addBookToLibrary();
