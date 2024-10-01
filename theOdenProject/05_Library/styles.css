@@ -63,3 +63,27 @@ input[type="submit"] {
 input[type="submit"]:hover {
     cursor: pointer;
 }
+
+
+.display-books {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.display-books button {
+    width: 200px;
+    height: 80px;
+    font-weight: 900;
+    margin-left: 20px;
+
+    background-color: #202020;
+    color: #1e40af;
+    border: none;
+    border-radius: 3px;
+}
+

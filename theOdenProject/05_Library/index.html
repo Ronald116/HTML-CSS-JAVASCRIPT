@@ -10,22 +10,24 @@
     <div class="container">
         <h1>LIBRARY</h1>
 
-    <button id="new-book-btn">NEW BOOK</button>
-    <form action="" id="library-form">
-        <label for="author" id="author">Author</label><br>
-        <input type="text" name="author" id="author" required><br>
-        <label for="title" class="title">Title</label><br>
-        <input type="text" name="title" id="title" required><br>
-        <label for="pages" id="pages">Pages</label><br>
-        <input type="number" name="pages" id="pages" required><br>
-        <label for="completed" id="completed">Read</label>
-        <input type="checkbox" name="completed" id="completed"><br>
-        <input type="submit" value="Submit">
-    </form>
+        <button id="new-book-btn">NEW BOOK</button>
+        <form action="" id="library-form" style="display: none;">
+            <label for="author">Author</label><br>
+            <input type="text" name="author" id="author" required><br>
+            
+            <label for="title">Title</label><br>
+            <input type="text" name="title" id="title" required><br>
+            
+            <label for="pages">Pages</label><br>
+            <input type="number" name="pages" id="pages" required><br>
+            
+            <label for="completed">Read</label>
+            <input type="checkbox" name="completed" id="completed"><br>
 
-    <div class="display-books"></div>
-
+            <input type="submit" value="Submit">
+        </form>
     </div>
+    <div class="display-books"></div>
     <script src="./main.js"></script>
 </body>
 </html>
