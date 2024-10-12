@@ -1,1 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 8%);
+}
+
+.main-container {
+    width: 30%;
+    height: 80%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.user-profile-info {
+    text-align: center;
+    /*border: red solid 1px;*/
+
+    height: 50%;
+    margin-top: 0px;
+    margin-bottom: 0;
+
+}
+
+.user-profile-info > img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.user-profile-info h2 {
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 0;
+}
+
+.user-profile-info .user-location {
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: small;
+}
+
+.user-profile-info p {
+    color:hsl(0, 0%, 100%);
+    margin-top: 30px;
+}
+
+.user-social-links {
+    height: 50%;
+    width: 100%;
+   /* border: solid red 1px;*/
+
+    text-align: center;
+    margin-top: -50px;
+    
+}
+
+.user-social-links div {
+    background-color: hsl(0, 0%, 20%);
+    margin: 20px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user-social-links a {
+    text-decoration: none;
+    color:  hsl(0, 0%, 100%);
+}
+
+.user-social-links div:hover ,
+.user-social-links div:hover a {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/*.user-social-links div:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.user-social-links div:hover a {
+    color: black;
+    font-weight: 700;
+}*/
+
+@media only screen and ( max-width: 375px) {
+    .main-container {
+        width: 90%;
+    }
+}
