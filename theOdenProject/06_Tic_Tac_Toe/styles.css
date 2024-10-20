@@ -1,0 +1,34 @@
+body {
+    font-family: "monospace", sans-serif;
+    text-align: center;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+}
+
+#gameboard div {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#status {
+    margin: 20px;
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
