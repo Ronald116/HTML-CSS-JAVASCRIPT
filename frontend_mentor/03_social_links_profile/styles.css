@@ -75,6 +75,7 @@ body {
     background-color: hsl(0, 0%, 20%);
     margin: 20px;
     height: 30px;
+    border-radius: 8px;
     
     display: flex;
     justify-content: center;
